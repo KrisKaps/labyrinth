@@ -14,17 +14,22 @@ body {
     width: 100vw;
 }
 
-a{
-    font-size: 40px;
+div{
+    width: 100vw;
+    background-color: darkgoldenrod;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+}
 
+a {
+    font-size: 40px;
     color: white;
     font-weight: normal;
     text-decoration: none;
+    margin: 15px;
 }
 
 a:hover {
